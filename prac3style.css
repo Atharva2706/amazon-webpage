@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: blanchedalmond;
+}
+
+.search input[type="text"] {
+  width: 350px;
+  height: 35px;
+  border: none;
+}
+
+.search {
+  margin: 7px;
+}
+
+.search button {
+  background-color: #0074d9;
+  color: #f2f2f2;
+  float: right;
+  padding: 5px 10px;
+  margin-right: 16px;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+header {
+  background-color: gold;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  height: auto;
+  width: 100%;
+  justify-items: center;
+  align-items: center;
+  padding: 20px 40px;
+  top: 0px;
+  position: fixed;
+}
+
+.i {
+  height: 12px;
+}
+.ama {
+  width: 125px;
+}
+.crt {
+  height: 45px;
+  justify-self: left;
+}
+
+.sign {
+  height: 30px;
+  padding: 1px;
+  background-color: white;
+}
+
+.ama:hover,
+.crt:hover,
+.sign:hover,
+.return:hover {
+  transform: scale(1.2);
+}
+.return {
+  height: 45px;
+}
+
+.bg {
+  margin-top: 120px;
+  width: 100%;
+}
+.se {
+  height: 22px;
+}
+
+.content {
+  margin: 30px 200px;
+}
+.i_1 {
+  height: 250px;
+}
+.i1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 5fr;
+  gap: 20px;
+  background-color: cornsilk;
+  margin: 20px;
+}
+h2,
+.slash {
+  display: inline;
+}
+.slash {
+  text-decoration: line-through;
+}
+.dod {
+  background-color: darkred;
+  display: inline-block;
+  padding: 2px 4px;
+  margin: 5px 0;
+  color: white;
+}
+.c {
+  line-height: 1.2;
+}
+.be {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.i1:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
+  padding: 5px;
+  /* color: White; */
+  background-color: gold;
+  bottom: 0;
+  margin: 0 200px;
+}
+.top {
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  padding: 5px;
+  /* color: White; */
+  background-color: gold;
+  bottom: 0;
+  margin: 0 200px;
+  text-decoration: none;
+  color: black;
+  border-bottom: 2px solid bottom;
+  margin-bottom: 1px;
+}
+
+.tore:link ,.tore:visited{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.tore:hover {
+  text-decoration: none;
+  color: goldenrod;
+  font-weight: bold;
+}
